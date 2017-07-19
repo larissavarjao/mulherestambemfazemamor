@@ -21,10 +21,22 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;   
+      
     position: fixed; 
+    z-index: 3;
+
 }
+
+nav {
+    background-color: rgba(255,255,255, 0.8);
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    margin-right: -0.8rem;
+    margin-left: -0.8rem;
+    
+}
+
 .lista-menu {
     list-style: none;
     display: flex;
@@ -35,7 +47,31 @@ header nav {
     padding-right: 2rem;
     width: 35%;
     color: rgba(240, 128, 128, 1);
-    background-color: rgba(255,255,255, 0.1);
 }
 
+.problema {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center; 
+}
 
+.objetivo {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo p {
+    padding: 5% 20% 5% 20%;
+    text-align: justify;
+    font-size: 1.9rem;
+}
+
+.solucao {
+    height: 105%;
+    background-color: rgba(240, 128, 128, 0.7);
+    margin: 0rem -1rem 0rem -1rem;
+}
