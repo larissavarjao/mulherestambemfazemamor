@@ -23,7 +23,7 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;  
-    position: fixed; 
+    position: absolute; 
     z-index: 3;
 
 }
@@ -50,8 +50,26 @@ nav {
 
 .problema {
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.titulo-problema {
+    margin-top: 20%;
+    font-weight: bolder;
+    color: rgba(240, 128, 128, 1);
+    /* padding-bottom: 5%; */
+    margin-top: 10%;
+    margin-top: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.corpo-problema {
+    display: flex;
     flex-direction: row;
-    height: 120%;
     justify-content: space-around;
     align-items: center; 
 }
@@ -61,14 +79,14 @@ nav {
     flex-direction: column;    
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    /* margin-top: 15%; */
+    margin-bottom: 2%;
 }
 
 .objetivo p {
     padding: 5% 20% 5% 20%;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #0a81d1;
 }
 
