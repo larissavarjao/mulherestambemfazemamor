@@ -88,6 +88,7 @@ nav {
     text-align: justify;
     font-size: 1.1rem;
     color: #0a81d1;
+    text-indent: 5%;
 }
 
 .solucao {
@@ -156,10 +157,12 @@ img#box-imagem {
 
 .boxprimeiro p#primeiro {
     padding: 5% 10% 5% 10%;
+    text-indent: 5%;
 }
 
 .segundo {
     padding: 3% 10% 3% 10%;
+    text-indent: 5%;
 }
 
 .segundo b#caixinha {
@@ -190,4 +193,40 @@ iframe#i-depoimentos {
     width: 1200px;
     height: 768px;
     overflow: hidden;
+}
+
+.dep-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+img#problema-01 {
+    width: 8%;
+}
+img#problema-02 {
+    width: 8%;
+}
+
+.titulo-depoimentos {
+    font-weight: bolder;
+    color: rgba(240, 128, 128, 1);
+    padding: 0;
+    margin-bottom: 2%;
+    font-size: 40pt;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.dep-text p {
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.dep-text h1 {
+    font-size: 15pt;   
 }
