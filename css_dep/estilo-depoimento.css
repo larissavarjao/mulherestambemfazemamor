@@ -1,7 +1,7 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 /*Importando a letra para o site inteiro! */
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
+/*@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -184,10 +184,4 @@ input#send {
 
 form {
     width: 78%;
-}
-
-iframe#i-depoimentos {
-    width: 1200px;
-    height: 768px;
-    overflow: hidden;
-}
+} */
