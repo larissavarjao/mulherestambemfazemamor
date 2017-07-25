@@ -251,6 +251,7 @@ iframe#i-depoimentos {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 1rem;
 }
 
 img#problema-01 {
@@ -282,7 +283,7 @@ img#problema-03 {
 .dep-text p {
     padding-right: 5%;
     padding-left: 5%;
-    text-align: justify;
+    text-align: left;
     text-indent: 5%;
 }
 
