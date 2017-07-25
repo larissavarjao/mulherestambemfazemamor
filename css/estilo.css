@@ -271,6 +271,13 @@ img#problema-03 {
     margin-left: 2%;
 }
 
+img#dots {
+    width: 5%;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+
 .titulo-depoimentos {
     font-weight: bolder;
     color: #EE4266;
