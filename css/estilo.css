@@ -245,14 +245,18 @@ form {
     justify-content: center;
     align-items: center;
 }
-
+.item-d {
+    width: 425px;
+    height: 400px;
+}
 .dep-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 1rem;
+    padding: 0.5rem;
+    
 }
 
 img#problema-01 {
