@@ -239,10 +239,11 @@ form {
 }
 
 
-iframe#i-depoimentos {
-    width: 1200px;
-    height: 768px;
-    overflow: hidden;
+.depoimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .dep-text {
