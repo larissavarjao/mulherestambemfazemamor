@@ -271,23 +271,53 @@ form {
     padding: 30px;
 }
 
+.depoimento-lari {
+    color: white;
+    background-color: rgba(255,255,255, 0.7);
+    margin: 0;
+    border-radius: 1%;
+    width: 1200px;
+    height: 400px;
+    display: none;  
+    font-size: 11pt;
+    margin: 30px;
+    padding: 30px;    
+}
+
+.depoimento-clara {
+    color: white;
+    background-color: rgba(255,255,255, 0.7);
+    margin: 0;
+    border-radius: 1%;
+    width: 1200px;
+    height: 400px;
+    display: none;  
+    font-size: 11pt;
+    margin: 30px;
+    padding: 30px;
+}
+
 .close {
     font-style: bolder;
     position: absolute;
     right: 60px;
     margin-top: -20px;
     color: black;
-
+    font-size: 12pt;
+    cursor: pointer;
 }
 
 .leia-mais {
-    width: 50%;
+    width: 25%;
+    height: 10%;
     background: #DD6273;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .leia-mais p {
     text-align: center;
+    font-size: 10pt;
 }
 
 img#problema-01 {
