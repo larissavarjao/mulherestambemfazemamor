@@ -183,7 +183,7 @@ img#box-imagem {
     font-size: 14pt;
 }
 
-fieldset {
+fieldset#box-mail {
     width: 78%;
     height: 100%;
     text-decoration: black;
@@ -198,8 +198,31 @@ input#mail {
     text-align: center;
 }
 
+fieldset#fiel-topo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+input#mail-c {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 form {
     width: 100%;
+}
+
+h1#email-tit {
+    color: #dddddd;
+    text-align: center;
+    width: 78%;
+    font-size: 12pt;
+    padding: 0;
+    margin: 5px 0 5px 0;
 }
 
 .curtidas {
@@ -217,10 +240,9 @@ form {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
 }
 
-.curtidas h1 {
+.titulo-curtidas, #numero {
     font-weight: bolder;
     color: #EE4266;
     padding: 0;
@@ -231,6 +253,15 @@ form {
 
 .curtidas h6 {
     font-size: 15pt;
+}
+
+h1#botao-curtida {
+    background-color: rgba(240, 128, 128, 1);
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .text-curtidas {
