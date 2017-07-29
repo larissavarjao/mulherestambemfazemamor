@@ -14,17 +14,23 @@ header nav .logo-temporaria {
     display: block;
 }
 
+p {
+    font-size: 11pt;
+}
+
 img#logo-temporaria {
     width: 10%;
     padding-left: 2rem;
 }
+
+
 
 header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;  
-    position: fixed; 
+    position: absolute; 
     z-index: 4;
 
 }
@@ -73,7 +79,6 @@ nav {
     margin-top: 20%;
     font-weight: bolder;
     color: #EE4266;
-    /* padding-bottom: 5%; */
     margin-top: 10%;
     margin-top: 0;
     font-size: 2rem;
@@ -97,8 +102,6 @@ nav {
 
 .objetivo p {
     padding: 5% 20% 5% 20%;
-    text-align: justify;
-    font-size: 1.1rem;
     color: #DDDDDD;
     text-indent: 5%;
 }
@@ -111,7 +114,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .titulo-solucao h1 {
@@ -129,8 +132,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-
 
 img#box-imagem {
     width: 78%;
@@ -159,28 +160,22 @@ img#box-imagem {
     font-size: 25pt;
     font-weight: bolder;
     text-align: center;
-    padding-top: 5%;
-}
-
-.boxprimeiro p {
-    font-size: 12pt;
-    text-align: justify;
-    
+    /* padding-top: 5%; */
 }
 
 .boxprimeiro p#primeiro {
-    padding: 5% 10% 5% 10%;
+    /* padding: 5% 10% 5% 10%; */
     text-indent: 5%;
 }
 
 .segundo {
-    padding: 3% 10% 3% 10%;
+    /* padding: 3%   10% 3% 10%; */
     text-indent: 5%;
 }
 
 .segundo b#caixinha {
     font-weight: bolder;
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 fieldset#box-mail {
@@ -204,7 +199,6 @@ fieldset#fiel-topo {
     border: none;
     margin: 0; 
     padding: 0; 
-    /* text-align: center; */
 }
 
 input#mail-c {
@@ -252,7 +246,7 @@ h1#email-tit {
     color: white;
     text-align: center;
     width: 78%;
-    font-size: 12pt;
+    font-size: 11pt;
     padding: 0;
     margin: 0;
 }
@@ -301,6 +295,7 @@ h1#email-tit {
 
 .curtidas h6 {
     font-size: 15pt;
+    margin: 0;
 }
 
 h1#botao-curtida {
@@ -315,6 +310,7 @@ h1#botao-curtida {
 .text-curtidas {
     width: 50%;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -326,7 +322,7 @@ h1#botao-curtida {
 }
 .item-d {
     width: 425px;
-    height: 400px;
+    height: 320px;
 }
 .dep-text {
     display: flex;
@@ -345,7 +341,6 @@ h1#botao-curtida {
     width: 1200px;
     height: 400px;
     display: none;  
-    font-size: 11pt;
     margin: 30px;
     padding: 30px;
 }
@@ -358,7 +353,6 @@ h1#botao-curtida {
     width: 1200px;
     height: 400px;
     display: none;  
-    font-size: 11pt;
     margin: 30px;
     padding: 30px;    
 }
@@ -371,7 +365,6 @@ h1#botao-curtida {
     width: 1200px;
     height: 400px;
     display: none;  
-    font-size: 11pt;
     margin: 30px;
     padding: 30px;
 }
@@ -382,7 +375,6 @@ h1#botao-curtida {
     right: 60px;
     margin-top: -20px;
     color: black;
-    font-size: 12pt;
     cursor: pointer;
 }
 
@@ -396,7 +388,7 @@ h1#botao-curtida {
 
 .leia-mais p {
     text-align: center;
-    font-size: 10pt;
+    margin-top: 8px;
 }
 
 img#problema-01 {
@@ -435,7 +427,6 @@ img#dots {
 .dep-text p {
     padding-right: 5%;
     padding-left: 5%;
-    /* text-align: left; */
     text-indent: 5%;
 }
 
