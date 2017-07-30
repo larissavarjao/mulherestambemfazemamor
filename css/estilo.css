@@ -55,14 +55,15 @@ nav {
     color: rgba(240, 128, 128, 1);
 }
 
-.titulo {
+.titulo h1 {
     font-family: 'Handlee', cursive;
     color:#dddddd;
     position: absolute;
     z-index: 3;
-    top: 39%;
-    left: 13%;
-    font-size: 20pt;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    font-size: 40pt;
 }
 
 .problema {
@@ -106,7 +107,7 @@ nav {
 
 .solucao {
     height: 100%;
-    width: 101.2%;
+    width: 100%;
     /* margin-left: -1rem; */
     display: flex;
     flex-direction: column;
@@ -136,10 +137,8 @@ img#box-imagem {
 }
 
 .boxsegundo {
-    width: 50%;
+    width: 30%;
     height: 75%;
-     margin-left: 5%; 
-    margin-right: 3%;
     border-radius: 6px;
     color: #DDDDDD;
 }
@@ -485,6 +484,10 @@ img#dots {
         font-size: 15pt;
     }
 
+    .titulo h1 {
+        font-size: 8pt;
+    }
+
     h1#email-section {
         font-size: 8pt;
     }
@@ -718,7 +721,7 @@ img#dots {
         width: 20%;
     }
 
-    .titulo {
+    .titulo h1{
         top: 500px;
         left: 30%;
     }
