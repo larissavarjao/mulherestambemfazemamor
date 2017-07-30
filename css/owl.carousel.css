@@ -14,6 +14,7 @@
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1; 
+  margin-bottom: -6.5%;
 
 }
 .owl-carousel .owl-stage {
@@ -226,5 +227,6 @@
       display: block;
       width: 100%; 
       height: 300px;
-  }
+      margin-bottom: -7.5%;
+    }
 }

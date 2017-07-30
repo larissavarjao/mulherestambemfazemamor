@@ -21,7 +21,7 @@
 .owl-theme .owl-nav [class*='owl-'] {
   color: rgba(255, 255, 255, 0.5);
   font-size: 54px;
-  margin-bottom: 5px; 
+  margin-bottom: 0px; 
   padding: 4px 7px;
   position: absolute;
   top: 50vh;

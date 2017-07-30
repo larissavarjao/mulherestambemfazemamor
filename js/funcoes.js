@@ -57,3 +57,30 @@ Array.prototype.forEach.call(close, function(item, index, array){
         }
     })
 })
+
+// SCROLL
+    function scrollTo(element, to, duration) {
+        if (duration <= 0) return;
+        var difference = to - element.scrollTop;
+        var perTick = difference / duration * 10;
+
+        setTimeout(function() {
+            element.scrollTop = element.scrollTop + perTick;
+            if (element.scrollTop === to) return;
+            scrollTo(element, to, duration - 10);
+        }, 10);
+    }
+
+    var menuItems = document.querySelectorAll("nav.nav-header ul li");
+
+	Array.prototype.forEach.call(menuItems, function(item){
+        item.addEventListener('click', function(){
+            var classes = item.classList;
+            var target;
+            Array.prototype.forEach.call(classes, function(classe){
+                target = classe.split(/-/)[1];
+            });
+            var to = document.querySelector('#'+target).offsetTop;
+            return scrollTo(document.body, to+100, 600);
+        }, false);
+    });
