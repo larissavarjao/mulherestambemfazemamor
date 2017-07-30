@@ -99,7 +99,7 @@ nav {
 }
 
 .objetivo p {
-    padding: 5% 20% 5% 20%;
+    padding: 5% 10% 5% 10%;
     color: #DDDDDD;
     text-indent: 5%;
 }
@@ -591,3 +591,135 @@ img#dots {
     }
 }
 
+@media (min-width: 426px) and (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+    header {
+        width: 150%;
+        height: 50%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 20pt;
+    }
+
+    h1#email-section {
+        font-size: 11pt;
+    }
+
+    input#mail-c {
+        margin-left: 5%;
+    }
+
+
+    .titulo-depoimentos, .titulo-curtidas, h1#MTFA-solucao, .titulo-solucao {
+        font-size: 15pt;
+    }
+
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-d {
+        width: 80%;
+        height: 100%;
+        /* margin: 0; */
+    }
+
+    .depoimento-carol {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .depoimento-lari {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .depoimento-clara {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .close {
+        right: 40px;
+        margin-top: -20px;
+    }
+
+    .lista-menu {
+        font-size: 8pt;
+    }
+
+
+    .corpo-problema {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; 
+    }
+
+    .box-solucao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxprimeiro {
+        width: 80%;
+        height: 75%;
+        margin-left: 5%;
+    }
+
+    .boxsegundo {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#email-tit {
+        font-size: 11pt;
+    }
+
+    h2#botao-curtida {
+        font-size: 11pt;
+        padding: 5px;
+        margin-left: 5%;
+    }
+
+    .curtidas h6 {
+        font-size: 10pt;
+    }
+
+    h1#numero {
+        font-size: 12pt;
+    }
+
+    img#condom, img#together {
+        width: 20%;
+    }
+
+    .titulo {
+        top: 500px;
+        left: 30%;
+    }
+}
