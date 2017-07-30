@@ -41,9 +41,11 @@
 }
 .owl-carousel .owl-nav .owl-prev {
   left: 20px;
+  top: 50%;
 }
 .owl-carousel .owl-nav .owl-next {
   right: 20px;
+  top: 50%;
 }
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 10px; }
@@ -69,4 +71,16 @@
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791; 
+}
+
+@media (max-width: 425px) {
+  .owl-carousel .owl-nav .owl-prev {
+    font-size: 11pt;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    font-size: 11pt;
+  }
+  .owl-dots {
+      left: 43%;
+  }
 }

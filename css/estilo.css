@@ -18,12 +18,14 @@ p {
     font-size: 11pt;
 }
 
+h1 {
+    font-size: 40pt;
+}
+
 img#logo-temporaria {
     width: 10%;
     padding-left: 2rem;
 }
-
-
 
 header nav {
     display: flex;
@@ -49,8 +51,6 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* padding-top: 1rem;
-    padding-right: 2rem; */
     width: 35%;
     color: rgba(240, 128, 128, 1);
 }
@@ -60,11 +60,9 @@ nav {
     color:#dddddd;
     position: absolute;
     z-index: 3;
-    margin-top: 35%;
-    margin-left: 24%;
+    top: 39%;
+    left: 13%;
     font-size: 20pt;
-    /* height: 0; */
-    /* width: 0; */
 }
 
 .problema {
@@ -109,15 +107,14 @@ nav {
 .solucao {
     height: 100%;
     width: 101.2%;
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 5%; */
 }
 
-.titulo-solucao h1 {
+.titulo-solucao {
     font-weight: bolder;
     color: #EE4266;
     padding-bottom: 5%;
@@ -141,7 +138,7 @@ img#box-imagem {
 .boxsegundo {
     width: 50%;
     height: 75%;
-    margin-left: 5%;
+     margin-left: 5%; 
     margin-right: 3%;
     border-radius: 6px;
     color: #DDDDDD;
@@ -150,7 +147,7 @@ img#box-imagem {
 .boxprimeiro {
     width: 50%;
     height: 75%;
-    margin-left: 5%;    
+     margin-left: 5%;     
     margin-right: 3%;
     border-radius: 6px;
     color: #DDDDDD;
@@ -298,7 +295,7 @@ h1#email-tit {
     margin: 0;
 }
 
-h1#botao-curtida {
+h2#botao-curtida {
     background-color: rgba(240, 128, 128, 1);
     width: 40%;
     text-align: center;
@@ -321,8 +318,8 @@ h1#botao-curtida {
     align-items: center;
 }
 .item-d {
-    width: 425px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
 }
 .dep-text {
     display: flex;
@@ -464,3 +461,133 @@ img#dots {
     align-items: flex-start;
     
 }
+
+
+@media (max-width: 425px) {
+    body{
+        width: 100%;
+    }
+
+    p {
+        font-size: 8pt;
+    }
+
+    header {
+        width: 150%;
+        height: 50%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 15pt;
+    }
+
+    h1#email-section {
+        font-size: 8pt;
+    }
+
+    input#mail-c {
+        margin-left: 5%;
+    }
+
+
+    .titulo-depoimentos, .titulo-curtidas, h1#MTFA-solucao, .titulo-solucao {
+        font-size: 15pt;
+    }
+
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-d {
+        width: 80%;
+        height: 100%;
+        /* margin: 0; */
+    }
+
+    .depoimento-carol {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .depoimento-lari {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .depoimento-clara {
+        width: 70%;
+        height: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .close {
+        right: 40px;
+        margin-top: -20px;
+    }
+
+    .lista-menu {
+        font-size: 4pt;
+    }
+
+
+    .corpo-problema {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+    }
+
+    .box-solucao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxprimeiro {
+        width: 80%;
+        height: 75%;
+        margin-left: 5%;
+    }
+
+    .boxsegundo {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#email-tit {
+        font-size: 9pt;
+    }
+
+    h2#botao-curtida {
+        font-size: 10pt;
+        padding: 5px;
+        margin-left: 5%;
+    }
+
+    .curtidas h6 {
+        font-size: 10pt;
+    }
+
+    h1#numero {
+        font-size: 12pt;
+    }
+
+    img#condom, img#together {
+        width: 20%;
+    }
+}
+
