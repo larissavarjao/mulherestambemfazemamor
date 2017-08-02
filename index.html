@@ -28,17 +28,23 @@
             <div class="item topo-02"><img src="img/topo-02.png" alt="" id="topo-02" ></div>
         </div>
         </section>
-        <div class="sec-topo">
-                <form action="mailto:larissavarjaolsv@gmail">
-                    <fieldset id="fiel-topo">
-                        <div class="sec-topo">
-                            <h1 id="email-section">Insira seu email e saiba mais novidades</h1>
-                            <input type="mail" name="box-mail" id="mail-c" size="25" max="100" placeholder="seuemail@gmail.com">
-                            <img src="img/forward.png" alt="" class="img-send">
+            <!-- <div class="topo-sec"> -->
+        <section>
+            <form action="mailto:larissavarjaolsv@gmail">
+                <fieldset id="fiel-topo">
+                    <div class="sec-topo">
+                        <h1 id="email-section">Insira seu email e saiba mais novidades</h1>
+                        <div class="send-email">
+                        <input type="mail" name="box-mail" id="mail-c" size="25" max="100" placeholder="seuemail@gmail.com">
+                        <div>
+                            <p class="send-b">ENVIAR</p>
                         </div>
-                    </fieldset> 
-                </form> 
-        </div> 
+                        </div>
+                    </div>
+                </fieldset> 
+            </form> 
+        </section>
+            <!-- </div>  -->
         <section class="s-problema" id="s-problema">    
                 <div class="problema"> 
             <div class="titulo-problema">
@@ -78,7 +84,7 @@
                             <fieldset id="box-mail">
                                 <div class="email-prob">
                                     <input type="mail" name="box-mail" id="mail" size="20" max="100" placeholder="seuemail@gmail.com">
-                                    <img src="img/forward.png" alt="" class="img-send">
+                                    <p class="send-b">ENVIAR</p>
                                 </div>
                             </fieldset>
                         </form>
@@ -96,9 +102,9 @@
                     <h1 id="numero">XXX</h1>
                     <h6>pessoas curtidas essa proposta!
                     </h6>
-                    <h6>Clique ao lado você também! </h6>
+                    <h6>Clique aqui e participe do movimento com a gente!</h6>
                 </div>
-                <h2 id="botao-curtida">Clique aqui e participe do movimento com a gente!</h2>
+                <h2 id="botao-curtida">Participe!</h2>
             </div>
         </div>
     </section>    
@@ -193,7 +199,7 @@
             autoplay: true,
             autoplayTimeout:3000,
             items: 1,
-            autoHeight: true,
+            autoHeight: false,
             autoWidth: false,
         })
         </script>

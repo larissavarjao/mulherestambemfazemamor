@@ -62,7 +62,8 @@
 .owl-carousel .owl-item img {
     display: block;
     width: 100%; 
-    height: 620px;
+    height: 106vh;
+    object-fit: cover;
 }
     
 .owl-carousel .owl-nav.disabled,
@@ -222,11 +223,8 @@
   width: 100%; 
 }
 
-@media (max-width: 425px) {
+ @media (max-width: 425px) {
   .owl-carousel .owl-item img {
-      display: block;
-      width: 100%; 
-      height: 300px;
       margin-bottom: -7.5%;
     }
-}
+} 

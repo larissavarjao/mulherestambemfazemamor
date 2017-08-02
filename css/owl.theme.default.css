@@ -12,7 +12,7 @@
   -webkit-tap-highlight-color: transparent; 
 }
 .owl-dots {
-  margin-top: -50px;
+  bottom: 15px;
   z-index: 3;
   position: absolute;
   left: 50%;

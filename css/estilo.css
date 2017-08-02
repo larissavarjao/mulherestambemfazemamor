@@ -23,7 +23,12 @@ h1 {
 }
 
 section {
-    margin-bottom: 5%;
+     margin: 10% 0; 
+}
+
+.s-carousel {
+    margin-top: 0;
+    margin-bottom: -11.5%;
 }
 
 img#logo-temporaria {
@@ -43,7 +48,6 @@ header nav {
 nav {
     background-color: rgba(255,255,255, 0.8);
     width: 100%;
-    height: 40px;
     margin: 0;
     
 }
@@ -61,7 +65,7 @@ nav {
 
 li, a {
     color: rgba(240, 128, 128, 1);
-    margin-right: 10px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
@@ -70,7 +74,7 @@ li, a {
     color:#dddddd;
     position: absolute;
     z-index: 3;
-    top: 75%;
+    top: 75vh;
     width: 100%;
     text-align: center;
     font-size: 40pt;
@@ -118,7 +122,6 @@ li, a {
 .solucao {
     height: 100%;
     width: 100%;
-    /* margin-left: -1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,16 +168,13 @@ img#box-imagem {
     font-size: 25pt;
     font-weight: bolder;
     text-align: center;
-    /* padding-top: 5%; */
 }
 
 .boxprimeiro p#primeiro {
-    /* padding: 5% 10% 5% 10%; */
     text-indent: 5%;
 }
 
 .segundo {
-    /* padding: 3%   10% 3% 10%; */
     text-indent: 5%;
 }
 
@@ -210,17 +210,34 @@ fieldset#fiel-topo {
     padding: 0; 
 }
 
+.send-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
 input#mail-c {
-    width: 25%;
+    width: 200px;
     margin-left: 10%;
     padding: 0;
     text-align: center;
     height: 21px;
-    border-radius: 7px;
+    border-radius: 1px;
 }
 
 .sec-topo form{
      width: 100%; 
+}
+
+.send-b {
+    margin-left: 10px;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    font-weight: bolder;
 }
 
 .mail-02 {
@@ -248,7 +265,7 @@ fieldset#box-mail {
 
 input#mail {
     width: 90%;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 h1#email-tit {
@@ -260,6 +277,11 @@ h1#email-tit {
     margin: 0;
 }
 
+.topo-sec {
+    width: 100%;
+    /* margin-top: 0; */
+}
+
 .sec-topo {
     background-color: none;
     display: flex;
@@ -267,22 +289,23 @@ h1#email-tit {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* margin-top: -0.75%; */
+    padding: 5px;
 }
 
 .sec-topo h1 {
     font-size: 14pt;
     color: white;
     background-color: none;
-    /* margin-top: 1.5%; */
 }
 
 .email-prob {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
-    
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 24px;
 }
 
 .curtidas {
@@ -293,6 +316,7 @@ h1#email-tit {
     color: #dddddd;
     width: 100%;
     height: 100%;
+    font-size: 9pt;
 }
 
 .corpo-curtidas {
@@ -329,16 +353,16 @@ h1#numero {
 
 h2#botao-curtida {
     background-color: rgba(240, 128, 128, 1);
-    width: 40%;
+    width: 15%;
     text-align: center;
     border-radius: 5px;
-    padding: 10px;
-    /* margin-left: 50px; */
+    padding: 15px 0;
     margin-top: 7%;
+    text-transform: uppercase;
 }
 
 .text-curtidas {
-    width: 40%;
+    width: 30%;
     text-align: center;
     margin: 0;
 }
@@ -367,7 +391,7 @@ h2#botao-curtida {
 
 .depoimento-carol {
     color: white;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255,255,255, 0.5);
     margin: 0;
     border-radius: 1%;
     width: 1200px;
@@ -379,7 +403,7 @@ h2#botao-curtida {
 
 .depoimento-lari {
     color: white;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255,255,255, 0.5);
     margin: 0;
     border-radius: 1%;
     width: 1200px;
@@ -391,7 +415,7 @@ h2#botao-curtida {
 
 .depoimento-clara {
     color: white;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255,255,255, 0.5);
     margin: 0;
     border-radius: 1%;
     width: 1200px;
@@ -481,7 +505,7 @@ img#dots {
 
 .dep-text {
     color: white;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255,255,255, 0.5);
     margin: 3%;
     border-radius: 1%;
 }
@@ -525,7 +549,7 @@ img#dots {
     }
 
     .titulo h1 {
-        font-size: 8pt;
+        font-size: 12pt;
     }
 
     img#logo-temporaria {
@@ -638,10 +662,8 @@ img#dots {
     }
 
     h2#botao-curtida {
-        font-size: 10pt;
-        padding: 5px;
+        font-size: 13pt;
         width: 34%;
-        margin-left: 5%;
     }
 
     .curtidas h6 {
@@ -656,14 +678,17 @@ img#dots {
         width: 20%;
     }
 
-    .titulo h1 {
-        top: 42%;
+    .sec-topo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .owl-carousel .owl-item img {
       display: block;
       width: 100%; 
       height: 300px;
-      margin-bottom: -7.5%;
+      margin-bottom: -11.5%;
     }
 }
 
@@ -786,9 +811,7 @@ img#dots {
     }
 
     h2#botao-curtida {
-        font-size: 11pt;
-        padding: 5px;
-        margin-left: 5%;
+        font-size: 13pt;
     }
 
     .curtidas h6 {
@@ -804,7 +827,7 @@ img#dots {
     }
 
     .titulo h1{
-        top: 500px;
-        font-size: 30pt;
+        top: 70hv; 
+        font-size: 20pt;
     }
 }
