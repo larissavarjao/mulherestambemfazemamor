@@ -11,6 +11,7 @@
   text-align: center;
   -webkit-tap-highlight-color: transparent; 
 }
+
 .owl-dots {
   bottom: 15px;
   z-index: 3;
@@ -33,7 +34,8 @@
 .owl-theme .owl-nav [class*='owl-']:hover {
   transition: .5s;
   color: #FFF;
-  text-decoration: none; 
+  text-decoration: none;
+  
 }
 .owl-theme .owl-nav .disabled {
   opacity: 0.5;
@@ -66,7 +68,7 @@
   background: #D6D6D6;
   display: block;
   -webkit-backface-visibility: visible;
-  transition: opacity 200ms ease;
+  transition: opacity .5s ease;
   border-radius: 30px; 
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
