@@ -28,7 +28,7 @@ section {
      margin: 10% 0; 
 }
 
-.s-carousel {
+#section-carousel {
     margin-top: 0;
     margin-bottom: -11.5%;
 }
@@ -83,7 +83,7 @@ a:hover {
     box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.2);
 }
 
-.titulo h1 {
+.titulo-carousel h1 {
     font-family: 'Hammersmith One', sans-serif;
     color:#dddddd;
     position: absolute;
@@ -94,7 +94,7 @@ a:hover {
     font-size: 40pt;
 }
 
-.problema {
+.objetivo {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -102,7 +102,7 @@ a:hover {
     align-items: center; 
 }
 
-.titulo-problema {
+.titulo-objetivo {
     margin-top: 20%;
     font-weight: bolder;
     color: #EE4266;
@@ -111,14 +111,14 @@ a:hover {
     font-size: 2rem;
 }
 
-.corpo-problema {
+.corpo-objetivo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center; 
 }
 
-.objetivo {
+.item-objetivo {
     margin-left: 5%;
     width: 30%;
     display: flex;
@@ -127,7 +127,7 @@ a:hover {
     align-items: center;
 }
 
-.objetivo p {
+.item-objetivo p {
     color: #DDDDDD;
     text-indent: 5%;
     padding: 10%;
@@ -163,7 +163,7 @@ img#box-imagem {
     border-radius: 5px;
 }
 
-.boxsegundo {
+.email-solucao {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -174,7 +174,7 @@ img#box-imagem {
     color: #DDDDDD;
 }
 
-.boxprimeiro {
+.texto-solucao {
     width: 39%;
     height: 75%;
      margin-left: 5%;     
@@ -183,23 +183,14 @@ img#box-imagem {
     color: #DDDDDD;
 }
 
-.boxprimeiro h1 {
+.texto-solucao h1 {
     font-size: 25pt;
     font-weight: bolder;
     text-align: center;
 }
 
-.boxprimeiro p#primeiro {
+.texto-solucao p {
     text-indent: 5%;
-}
-
-.segundo {
-    text-indent: 5%;
-}
-
-.segundo b#caixinha {
-    font-weight: bolder;
-    font-size: 10pt;
 }
 
 .mail {
@@ -211,18 +202,18 @@ img#box-imagem {
     border-radius: 3px;
 }
 
-.send-b {
+.se-inscreva {
     margin-left: 10px;
     padding: 3px;
     color: white;
     font-weight: bolder;
 } 
 
-p.send-b {
+p.se-inscreva {
     width: 100%;
 }
 
-.mail-02 {
+.mail-solucao {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -230,7 +221,7 @@ p.send-b {
     align-items: center;
 }
 
-h1#email-tit {
+.email-solucao h1 {
     text-align: center;
     width: 100%;
     font-size: 11pt;
@@ -238,10 +229,9 @@ h1#email-tit {
 
 .topo-sec {
     width: 100%;
-    /* margin-top: 0; */
 }
 
-.sec-topo {
+.email-carousel {
     background-color: none;
     display: flex;
     flex-direction: row;
@@ -263,13 +253,13 @@ h1#email-tit {
     margin-left: 10vh;
 }
 
-.sec-topo h1 {
+.email-carousel h1 {
     font-size: 14pt;
     color: white;
     background-color: none;
 }
  
-.email-prob {
+.email-solucao-fieldset {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -304,7 +294,7 @@ h1#email-tit {
     text-align: center;
 }
 
-h1#numero {
+.curtidas h1 {
     font-weight: bolder;
     font-family: 'Hammersmith One', sans-serif;
     color: #EE4266;
@@ -330,7 +320,7 @@ h2#botao-curtida {
     text-transform: uppercase;
 }
 
-.text-curtidas {
+.texto-curtidas-numero {
     width: 35%;
     text-align: center;
     margin: 0;
@@ -340,7 +330,7 @@ h2#botao-curtida {
     align-items: center;
 }
 
-.text-curtidas2 {
+.texto-curtidas-participe {
     width: 30%;
     text-align: center;
     margin: 0;
@@ -356,17 +346,17 @@ h2#botao-curtida {
     justify-content: center;
     align-items: center;
 }
-.item-d {
+.item-depoimento {
     width: 500px;
     height: 100%;
 }
-.dep-text {
+
+.texto-depoimento {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 3%;
-    /* padding: 0.5rem;  */
     width: 334px;
     height: 380px;
     color: white;
@@ -375,7 +365,7 @@ h2#botao-curtida {
 }
 
 
-.topo-dep{
+.topo-depoimento {
     width: 100%;
     height: 100px;
     padding: 0;
@@ -386,7 +376,7 @@ h2#botao-curtida {
     background-color: rgba(0,0,0,0.5);
 }
 
-.corpo-dep {
+.corpo-depoimento {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -500,21 +490,21 @@ img#dots {
     text-align: center;
 }
 
-.dep-text p {
+.texto-depoimento p {
     padding-right: 5%;
     padding-left: 5%;
     text-indent: 5%;
     margin-top: 0;
 }
 
-.dep-text h1 {
+.texto-depoimento h1 {
     font-size: 12pt;  
     padding-left: 3%; 
     margin: 0;
     color: #EE4266;
 }
 
-.dep-text h3 {
+.texto-depoimento h3 {
     font-size: 9pt;
     padding-left: 3%;
     width: 100%;
@@ -558,7 +548,7 @@ img#dots {
         width: 13%;
     }
 
-    h1#email-section {
+    .email-carousel h1 {
         font-size: 8pt;
     }
 
@@ -571,7 +561,7 @@ img#dots {
         font-size: 20pt;
     }
 
-    h1#MTFA-solucao {
+    .texto-solucao {
         font-size: 13pt;
     }
 
@@ -582,7 +572,7 @@ img#dots {
         align-items: center;
     }    
 
-    .item-d {
+    .item-depoimento {
         width: 80%;
         height: 100%;
         /* margin: 0; */
@@ -616,7 +606,7 @@ img#dots {
     }
 
 
-    .corpo-problema {
+    .corpo-objetivo {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -632,7 +622,7 @@ img#dots {
 
     }
 
-    .text-curtidas {
+    .texto-curtidas-numero {
         width: 100%;
         margin: 5%;
     }
@@ -644,13 +634,13 @@ img#dots {
         align-items: center;
     }
 
-    .boxprimeiro {
+    .texto-solucao {
         width: 80%;
         height: 75%;
         margin-left: 5%;
     }
 
-    .boxsegundo {
+    .email-solucao {
         width: 100%;
         height: 75%;
         display: flex;
@@ -672,7 +662,7 @@ img#dots {
         font-size: 10pt;
     }
 
-    h1#numero {
+    .curtidas h1 {
         font-size: 12pt;
     }
 
@@ -733,7 +723,7 @@ img#dots {
         font-size: 30pt;
     }
 
-    h1#MTFA-solucao {
+    .texto-solucao h1 {
         font-size: 15pt;
     }
 
@@ -745,7 +735,7 @@ img#dots {
         align-items: center;
     }
 
-    .item-d {
+    .item-depoimento {
         width: 40%;
         height: 100%;
         /* margin: 0; */
@@ -779,7 +769,7 @@ img#dots {
     }
 
 
-    .corpo-problema {
+    .corpo-objetivo {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -793,13 +783,13 @@ img#dots {
         align-items: center;
     }
 
-    .boxprimeiro {
+    .texto-solucao {
         width: 80%;
         height: 75%;
         margin-left: 5%;
     }
 
-    .boxsegundo {
+    .email-solucao {
         width: 100%;
         height: 75%;
         display: flex;
@@ -820,7 +810,7 @@ img#dots {
         font-size: 10pt;
     }
 
-    h1#numero {
+    .curtidas h1 {
         font-size: 20pt;
     }
 
