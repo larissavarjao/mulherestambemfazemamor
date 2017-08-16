@@ -85,4 +85,7 @@
   .owl-dots {
       left: 43%;
   }
+  .owl-carousel, .owl-item img {
+        height: inherit;
+    }
 }

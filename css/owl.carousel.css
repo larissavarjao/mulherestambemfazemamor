@@ -225,8 +225,8 @@
   width: 100%; 
 }
 
- @media (max-width: 425px) {
+ @media (max-width: 800px) {
   .owl-carousel .owl-item img {
-      margin-bottom: -7.5%;
+        height: 70vh;
     }
 } 
