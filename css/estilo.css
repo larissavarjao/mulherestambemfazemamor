@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 /*Importando a letra para o site inteiro! */
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Handlee');
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway|Handlee|Hammersmith+One');
 
 body {
     font-family: 'Raleway', sans-serif;
