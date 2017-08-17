@@ -19,6 +19,16 @@
   left: 50%;
 }
 
+.owl-carousel .owl-item img {
+  max-width: 1280px;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 20s;
+  -o-transition: 20s;
+  transition: transform 20s;
+}
+
 .owl-theme .owl-nav [class*='owl-'] {
   color: rgba(255, 255, 255, 0.5);
   font-size: 54px;

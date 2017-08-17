@@ -72,19 +72,36 @@ function scrollTo(element, to, duration) {
     }, 10);
 }
 
-var menuItems = document.querySelectorAll(".nav-header");
+var menuItems = document.querySelectorAll("nav.nav-header ul li");
 
 Array.prototype.forEach.call(menuItems, function(item){
     item.addEventListener('click', function(){
-        var classes = item.classList;
-        var target;
-        Array.prototype.forEach.call(classes, function(classe){
-            target = classe.split(/-/)[1];
-        });
-        var to = document.querySelector('#'+target).offsetTop;
+    //     var classes = item.classList;
+    //     var target;
+    //     Array.prototype.forEach.call(classes, function(classe){
+    //         target = classe.split(/-/)[1];
+    //     });
+    //     var to = document.querySelector('#'+target).offsetTop;
+    //     return scrollTo(document.body, to+100, 600);
+    // }, false);
+    if(menuItems == '#section-carousel'){
+        var to = document.querySelector('#section-carousel').offsetTop;
         return scrollTo(document.body, to+100, 600);
-    }, false);
+    } else if (menuItems == 1){
+        var to = document.querySelector('#section-problema').offsetTop;
+        return scrollTo(document.body, to+100, 600);
+    } else if (menuItems == 2){
+        var to = document.querySelector('#section-solucao').offsetTop;
+        return scrollTo(document.body, to+100, 600);
+    } else if (menuItems == 'section-depoimentos'){
+        var to = document.querySelector('#section-depoimentos').offsetTop;
+        return scrollTo(document.body, to+100, 600);
+    }
 });
+
+
+//tentativa falha de colocar matrix
+
 
 document.querySelector('body').addEventListener('mousemove', function(event) {
     var posX = event.screenX,
