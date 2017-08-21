@@ -731,18 +731,14 @@ img#dots {
         margin: 0;
     }
 
-    #titulo-carousel {
-        font-size: 16pt;
-        top: 190px;
+    #titulo-carousel h1 {
+        top: 63vh;
+        font-size: 20pt;
         color: white;
     }
 
     img#logo-temporaria {
         width: 13%;
-    }
-
-    .email-carousel {
-         top: 230px;
     }
 
     .email-carousel h1 {
@@ -1109,9 +1105,8 @@ img#dots {
         width: 20%;
     }
 
-    #titulo-carousel{
-        top: 70hv; 
-        font-size: 20pt;
+    #titulo-carousel h1{ 
+        font-size: 35pt;
     }
 
     .send-email {
