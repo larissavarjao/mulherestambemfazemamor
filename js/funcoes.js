@@ -10,9 +10,6 @@ var boxcarol = document.querySelector('#box-carol');
 var boxlari = document.querySelector('#box-lari');
 var boxclara = document.querySelector('#box-clara');
 
-var carousel = document.querySelector('.s-carousel');
-var textcarousel = document.querySelectorAll('.titulo h1');
-
 Array.prototype.forEach.call(leia, function(item, index, array){
     item.addEventListener('click', function(){
         if(index == 0){
@@ -72,45 +69,53 @@ function scrollTo(element, to, duration) {
     }, 10);
 }
 
-var menuItems = document.querySelectorAll(".nav-header");
+var menuItems = document.querySelectorAll("nav.nav-header ul li");
 
 Array.prototype.forEach.call(menuItems, function(item){
     item.addEventListener('click', function(){
-        var classes = item.classList;
-        var target;
-        Array.prototype.forEach.call(classes, function(classe){
-            target = classe.split(/-/)[1];
-        });
-        var to = document.querySelector('#'+target).offsetTop;
-        return scrollTo(document.body, to+100, 600);
-    }, false);
+        var target = item.classList[0];
+        console.log(target);
+        var to = document.querySelector(target).offsetTop;
+        return scrollTo(document.body, to, 500);
+    });
 });
 
-document.querySelector('body').addEventListener('mousemove', function(event) {
-    var posX = event.screenX,
-        posY = event.clientY;
-    var wh = screen.height;
-    var metadeh = 0.5 * wh;
-    var ww = screen.width;
-    var metadew = 0.5 * ww;
-    console.log('posX: ' + posX + ' posY:' + posY);
-    console.log('Width: ' + metadew + ' Metade H:' + metadeh);
-    if((posX <= metadew) && (posY <= metadeh)){
-        //1 quadrante
-        console.log('Primeiro quadrante' + posX + ' ' + posY);
-        textcarousel.style.top = '70 pt';
-        textcarousel.style.color = 'pink';
-    } else if((posX <= metadew) && (posY > metadeh)){
-        //2 quadrante
-        console.log('Segundo quadrante' + posX + ' ' + posY);
-    } else if((posX > metadew) && (posY <= metadeh)){
-        //3 quadrante
-        console.log('Terceiro quadrante' + posX + ' ' + posY);
-    } else if((posX > metadew) && (posY > metadeh)){
-        //4 quadrante
-        console.log('Quarto quadrante' + posX + ' ' + posY);
+var imagem1 = document.querySelector('#slide-1');
+var imagem2 = document.querySelector('#slide-2');
+var mtfa = document.querySelector('#carousel-1');
+var slide2 = document.querySelector('#carousel-2');
+
+function imagemaparecendo1(){
+    imagem1.style.opacity = '1';
+    imagem2.style.opacity = '0';
+    mtfa.style.opacity = '1';
+    slide2.style.opacity = '0';
+    imagem1.style.transform = 'scale(1.2)';
+    imagem1.style.width = 'cover';
+    mtfa.style.transform = 'scale(.5)';
+    imagem2.style.transform = 'scale(1)';
+    slide2.style.transform = 'scale(1)';
+}
+
+function imagemaparecendo2(){
+    imagem1.style.opacity = '0';
+    imagem2.style.opacity = '1';
+    mtfa.style.opacity = '0';
+    slide2.style.opacity = '1';
+    imagem2.style.transform = 'scale(1.2)';
+    slide2.style.transform = 'scale(.5)';
+    imagem1.style.transform = 'scale(1)';
+    mtfa.style.transform = 'scale(1)';
+}
+
+var counter = 0;
+var imagemTransform = setInterval(function slide(){
+    if(counter % 15 === 0){
+        if(imagem1.style.opacity === '1'){
+            imagemaparecendo2();            
+        } else {
+            imagemaparecendo1(); 
+        }
     }
-    //console.log(posX);
-    //console.log(posY);
-});
-
+    console.log(counter++);
+}, 1000);
