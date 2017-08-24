@@ -80,38 +80,6 @@ Array.prototype.forEach.call(menuItems, function(item){
     });
 });
 
-
-//tentativa falha de colocar matrix
-
-
-// document.querySelector('body').addEventListener('mousemove', function(event) {
-//     var posX = event.screenX;
-//         posY = event.clientY;
-//     var wh = screen.height;
-//     var metadeh = 0.5 * wh;
-//     var ww = screen.width;
-//     var metadew = 0.5 * ww;
-//     console.log('posX: ' + posX + ' posY:' + posY);
-//     console.log('Width: ' + metadew + ' Metade H:' + metadeh);
-//     if((posX <= metadew) && (posY <= metadeh)){
-//         //1 quadrante
-//         console.log('Primeiro quadrante' + posX + ' ' + posY);
-//         textcarousel.style.top = '70 pt';
-//         textcarousel.style.color = 'pink';
-//     } else if((posX <= metadew) && (posY > metadeh)){
-//         //2 quadrante
-//         console.log('Segundo quadrante' + posX + ' ' + posY);
-//     } else if((posX > metadew) && (posY <= metadeh)){
-//         //3 quadrante
-//         console.log('Terceiro quadrante' + posX + ' ' + posY);
-//     } else if((posX > metadew) && (posY > metadeh)){
-//         //4 quadrante
-//         console.log('Quarto quadrante' + posX + ' ' + posY);
-//     }
-//     //console.log(posX);
-//     //console.log(posY);
-// });
-
 var imagem1 = document.querySelector('#slide-1');
 var imagem2 = document.querySelector('#slide-2');
 var mtfa = document.querySelector('#carousel-1');
@@ -142,7 +110,7 @@ function imagemaparecendo2(){
 
 var counter = 0;
 var imagemTransform = setInterval(function slide(){
-    if(counter % 10 === 0){
+    if(counter % 15 === 0){
         if(imagem1.style.opacity === '1'){
             imagemaparecendo2();            
         } else {
