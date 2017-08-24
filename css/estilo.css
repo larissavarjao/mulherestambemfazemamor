@@ -105,7 +105,10 @@ li:hover {
     width: 100%;
     height: 100vh;
     margin-top: -10%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -130,7 +133,11 @@ li:hover {
     width: 100%;
     text-align: center;
     font-size: 40pt;
+    -webkit-transition: -webkit-transform 60s;
+    transition: -webkit-transform 60s;
+    -o-transition: transform 60s;
     transition: transform 60s;
+    transition: transform 60s, -webkit-transform 60s;
     opacity: 0;
 }
 
@@ -243,6 +250,8 @@ li:hover {
 }
 
 fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -353,7 +362,10 @@ p.se-inscreva {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -442,7 +454,8 @@ p.se-inscreva {
             align-items: center;
     width: 100%;
     padding-left: 5%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .titulo-curtidas {
