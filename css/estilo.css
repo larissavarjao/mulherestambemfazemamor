@@ -727,6 +727,7 @@ h2#botao-curtida {
             -webkit-align-items: flex-end;
             align-items: flex-end;
     height: 280px;
+    position: relative;
     margin: 0;
 }
 
@@ -841,7 +842,7 @@ img#dots {
 
 @media (max-width: 700px) {
     p {
-        font-size: 8pt;
+        font-size: 9pt;
     }
 
     header {
@@ -850,15 +851,17 @@ img#dots {
     }
 
     ul li {
-        font-size: 6pt;
+        font-size: 8pt;
+        padding: 0.2rem 0.2rem;
     }
 
     a {
         padding: 0;
+        margin: 0;
     }
 
     h1 {
-        font-size: 20pt;
+        font-size: 21pt;
     }
 
     .send-email {
@@ -973,9 +976,13 @@ img#dots {
         font-size: 13pt;
     }
 
+    .item-depoimento {
+        width: 60%;
+        height: 320px;
+    }
+
     .depoimento {
         width: 70%;
-        height: 100%;
     }
 
     .close {
@@ -1159,7 +1166,12 @@ img#dots {
         font-size: 15pt;
     }
 
-    /* .depoimentos {
+    .item-depoimento {
+        width: 44%;
+        height: 320px;
+    }
+
+    .depoimentos {
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -1180,7 +1192,7 @@ img#dots {
             -ms-flex-align: center;
                 -webkit-align-items: center;
                 align-items: center;
-    } */
+    }
 
     .close {
         right: 14%;
