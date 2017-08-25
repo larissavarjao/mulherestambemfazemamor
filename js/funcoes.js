@@ -110,7 +110,7 @@ function imagemaparecendo2(){
 
 var counter = 0;
 var imagemTransform = setInterval(function slide(){
-    if(counter % 15 === 0){
+    if(counter % 19 === 0){
         if(imagem1.style.opacity === '1'){
             imagemaparecendo2();            
         } else {
