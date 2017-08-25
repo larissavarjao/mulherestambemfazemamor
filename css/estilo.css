@@ -840,7 +840,7 @@ img#dots {
     margin-top: 3px;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     p {
         font-size: 9pt;
     }
