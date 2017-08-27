@@ -16,19 +16,25 @@ Array.prototype.forEach.call(leia, function(item, index, array){
             boxcarol.style.display = 'none';
             boxlari.style.display = 'none';
             boxclara.style.display = 'none';
-            carol.style.display = 'block';
+            $(document).ready(function(){
+                $(carol).fadeIn(4000);
+            });
         }
         else if (index == 1){
             boxcarol.style.display = 'none';
             boxlari.style.display = 'none';
             boxclara.style.display = 'none';
-            lari.style.display = 'block';
+            $(document).ready(function(){
+                $(lari).fadeIn(4000);
+            });
         }
         else if(index == 2){
             boxcarol.style.display = 'none';
             boxlari.style.display = 'none';
             boxclara.style.display = 'none';
-            clara.style.display = 'block';
+            $(document).ready(function(){
+                $(clara).fadeIn(4000);
+            });
         }
     })
 })
