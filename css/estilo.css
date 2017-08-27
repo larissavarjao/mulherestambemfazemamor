@@ -539,6 +539,7 @@ img#box-imagem {
 }
  
 .email-solucao-fieldset {
+    margin-left: 1%;
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -649,6 +650,7 @@ h2#botao-curtida {
     padding: 18px 0;
     margin-top: 7%;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .texto-curtidas-numero {
@@ -983,6 +985,10 @@ img#dots {
         padding: 15.5px;
     }
 
+    .se-inscreva-solucao {
+        padding: 7px 22px;
+    }
+
     .depoimentos {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1026,7 +1032,7 @@ img#dots {
     }
     
     .email-solucao-fieldset {
-        width: auto;
+        width: 90%;
         height: auto;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1048,7 +1054,7 @@ img#dots {
     }
 
     .mail-solucao {
-        width: 100%;
+        width: 90%;
     }
 
     .texto-solucao h1 {
@@ -1129,7 +1135,7 @@ img#dots {
     }
 
     .email-solucao {
-        width: auto;
+        width: 100%;
         height: auto;
         display: -webkit-box;
         display: -ms-flexbox;
