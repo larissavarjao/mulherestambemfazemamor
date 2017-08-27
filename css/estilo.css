@@ -156,6 +156,9 @@ li:hover {
     -webkit-transition: -webkit-transform 80s;
     transition: -webkit-transform 80s;
     -o-transition: transform 80s;
+    -webkit-transition: opacity 7s, -webkit-transform 80s;
+    transition: opacity 7s, -webkit-transform 80s;
+    -o-transition: transform 80s, opacity 7s;
     transition: transform 80s, opacity 7s;
     transition: transform 80s, opacity 7s, -webkit-transform 80s;
 }
@@ -187,13 +190,19 @@ li:hover {
     margin-left: 8%;
     font-size: 2rem;
     width: 92%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             -webkit-flex-direction: row;
             flex-direction: row;
-            justify-content: flex-start;
+            -webkit-box-pack: start;
+            -webkit-justify-content: flex-start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             -webkit-align-items: center;
@@ -277,9 +286,19 @@ li:hover {
     padding: 0;
     margin-bottom: -2%;
     font-size: 40pt;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;     
-    justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;     
+    -webkit-box-pack: end;     
+    -webkit-justify-content: flex-end;     
+        -ms-flex-pack: end;     
+            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             -webkit-align-items: center;
@@ -617,9 +636,19 @@ img#box-imagem {
     margin: 0;
     font-size: 40pt;
     text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;     
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;     
+    -webkit-box-pack: start;     
+    -webkit-justify-content: flex-start;     
+        -ms-flex-pack: start;     
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             -webkit-align-items: center;
@@ -809,14 +838,20 @@ h2#botao-curtida {
 }
 
 #carol {
+    -webkit-transition: display 10s;
+    -o-transition: display 10s;
     transition: display 10s;  
 }
 
 #larissa {
+    -webkit-transition: display 10s;
+    -o-transition: display 10s;
     transition: display 10s;  
 }
 
 #clara {
+    -webkit-transition: display 10s;
+    -o-transition: display 10s;
     transition: display 10s;  
 }
 
