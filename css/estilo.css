@@ -511,7 +511,7 @@ img#box-imagem {
 
 .se-inscreva-solucao {
     background-color: #EE4266;
-    padding: 5.5px 22px;
+    padding: 1rem;
     color: white;
     border-radius: 0 7px 7px 0;
     text-align: center;
@@ -671,7 +671,6 @@ img#box-imagem {
             -webkit-align-items: center;
             align-items: center;
     width: 100%;
-    padding-left: 5%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
