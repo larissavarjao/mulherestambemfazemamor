@@ -1020,7 +1020,7 @@ img#dots {
     }
 
     h1 {
-        font-size: 21pt;
+        font-size: 20pt;
     }
 
     .send-email {
@@ -1046,8 +1046,9 @@ img#dots {
     }
 
 
-    .titulo-depoimentos, .titulo-curtidas, .titulo-solucao {
+    .titulo-depoimentos, .titulo-curtidas, .titulo-solucao, .titulo-objetivo {
         font-size: 20pt;
+        text-align: center;
     }
 
     .texto-solucao {
@@ -1330,8 +1331,10 @@ img#dots {
     }
 
 
-    .titulo-depoimentos, .titulo-curtidas, .titulo-solucao {
+    .titulo-depoimentos, .titulo-curtidas, .titulo-solucao, .titulo-objetivo {
         font-size: 30pt;
+        text-align: center;
+        width: auto;
     }
 
     .texto-solucao h1 {
@@ -1445,7 +1448,7 @@ img#dots {
 
     .curtidas h1 {
         font-size: 130pt;
-
+        margin-left: 15%;
     }
 
     img#condom, img#together {
