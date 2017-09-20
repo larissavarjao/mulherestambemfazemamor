@@ -447,10 +447,13 @@ img#box-imagem {
 
 img#box-camisinha-imagem {
     position: absolute;
-    width: 30%;
-    right: 52%;
-    top: 5%;
+    width: 46%;
+    top: 25%;
     border-radius: 500px; 
+}
+
+img#box-camisinha-imagem:hover {
+    transform: scale(2);
 }
 
 .texto-solucao {
