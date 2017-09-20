@@ -1,3 +1,4 @@
+var menuItems = document.querySelectorAll("nav.nav-header ul li");
 var leia = document.querySelectorAll('.leia-mais');
 var tit = document.querySelector('.titulo-depoimentos');
 var carol = document.querySelector('#carol');
@@ -5,36 +6,25 @@ var lari = document.querySelector('#larissa');
 var clara = document.querySelector('#clara');
 var depoimentos = document.querySelectorAll('.dep-text');
 var close = document.querySelectorAll('.close');
-
 var boxcarol = document.querySelector('#box-carol');
 var boxlari = document.querySelector('#box-lari');
 var boxclara = document.querySelector('#box-clara');
+var imagem1 = document.querySelector('#slide-1');
+var imagem2 = document.querySelector('#slide-2');
+var mtfa = document.querySelector('#carousel-1');
+var slide2 = document.querySelector('#carousel-2');
+var counter = 0;
 
 Array.prototype.forEach.call(leia, function(item, index, array){
     item.addEventListener('click', function(){
         if(index == 0){
-            boxcarol.style.display = 'none';
-            boxlari.style.display = 'none';
-            boxclara.style.display = 'none';
-            $(document).ready(function(){
-                $(carol).fadeIn(4000);
-            });
+            activeDepoimentoCarol();
         }
         else if (index == 1){
-            boxcarol.style.display = 'none';
-            boxlari.style.display = 'none';
-            boxclara.style.display = 'none';
-            $(document).ready(function(){
-                $(lari).fadeIn(4000);
-            });
+            activeDepoimentoLari();
         }
         else if(index == 2){
-            boxcarol.style.display = 'none';
-            boxlari.style.display = 'none';
-            boxclara.style.display = 'none';
-            $(document).ready(function(){
-                $(clara).fadeIn(4000);
-            });
+            activeDepoimentoClara();
         }
     })
 })
@@ -42,25 +32,72 @@ Array.prototype.forEach.call(leia, function(item, index, array){
 Array.prototype.forEach.call(close, function(item, index, array){
     item.addEventListener('click', function(){
         if(index == 0){
-            boxcarol.style.display = 'flex';
-            boxlari.style.display = 'flex';
-            boxclara.style.display = 'flex';
-            carol.style.display = 'none';
+            removeDepoimentoCarol();
         }
         else if (index == 1){
-            boxcarol.style.display = 'flex';
-            boxlari.style.display = 'flex';
-            boxclara.style.display = 'flex';
-            lari.style.display = 'none';
+            removeDepoimentoLari();
         }
         else if(index == 2){
-            boxcarol.style.display = 'flex';
-            boxlari.style.display = 'flex';
-            boxclara.style.display = 'flex';
-            clara.style.display = 'none';
+            removeDepoimentoClara();
         }
     })
 })
+
+Array.prototype.forEach.call(menuItems, function(item){
+    item.addEventListener('click', function(){
+        var target = item.classList[0];
+        var to = document.querySelector(target).offsetTop;
+        return scrollTo(document.body, to, 500);
+    });
+});
+
+function activeDepoimentoCarol(){
+    boxcarol.style.display = 'none';
+    boxlari.style.display = 'none';
+    boxclara.style.display = 'none';
+    $(document).ready(function(){
+        $(carol).fadeIn(4000);
+    }); 
+}
+
+function activeDepoimentoLari(){
+    boxcarol.style.display = 'none';
+    boxlari.style.display = 'none';
+    boxclara.style.display = 'none';
+    $(document).ready(function(){
+        $(lari).fadeIn(4000);
+    });
+}
+
+function activeDepoimentoClara(){
+    boxcarol.style.display = 'none';
+    boxlari.style.display = 'none';
+    boxclara.style.display = 'none';
+    $(document).ready(function(){
+        $(clara).fadeIn(4000);
+    });
+}
+
+function removeDepoimentoCarol(){
+    boxcarol.style.display = 'flex';
+    boxlari.style.display = 'flex';
+    boxclara.style.display = 'flex';
+    carol.style.display = 'none';
+}
+
+function removeDepoimentoLari(){
+    boxcarol.style.display = 'flex';
+    boxlari.style.display = 'flex';
+    boxclara.style.display = 'flex';
+    lari.style.display = 'none';
+}
+
+function removeDepoimentoClara(){
+    boxcarol.style.display = 'flex';
+    boxlari.style.display = 'flex';
+    boxclara.style.display = 'flex';
+    clara.style.display = 'none';
+}
 
 // SCROLL
 function scrollTo(element, to, duration) {
@@ -74,22 +111,6 @@ function scrollTo(element, to, duration) {
         scrollTo(element, to, duration - 10);
     }, 10);
 }
-
-var menuItems = document.querySelectorAll("nav.nav-header ul li");
-
-Array.prototype.forEach.call(menuItems, function(item){
-    item.addEventListener('click', function(){
-        var target = item.classList[0];
-        console.log(target);
-        var to = document.querySelector(target).offsetTop;
-        return scrollTo(document.body, to, 500);
-    });
-});
-
-var imagem1 = document.querySelector('#slide-1');
-var imagem2 = document.querySelector('#slide-2');
-var mtfa = document.querySelector('#carousel-1');
-var slide2 = document.querySelector('#carousel-2');
 
 function imagemaparecendo1(){
     imagem1.style.opacity = '1';
@@ -114,7 +135,6 @@ function imagemaparecendo2(){
     mtfa.style.transform = 'scale(1)';
 }
 
-var counter = 0;
 var imagemTransform = setInterval(function slide(){
     if(counter % 19 === 0){
         if(imagem1.style.opacity === '1'){

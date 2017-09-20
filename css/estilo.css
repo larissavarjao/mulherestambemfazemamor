@@ -156,11 +156,11 @@ li:hover {
     -webkit-transition: -webkit-transform 80s;
     transition: -webkit-transform 80s;
     -o-transition: transform 80s;
-    -webkit-transition: opacity 7s, -webkit-transform 80s;
-    transition: opacity 7s, -webkit-transform 80s;
-    -o-transition: transform 80s, opacity 7s;
-    transition: transform 80s, opacity 7s;
-    transition: transform 80s, opacity 7s, -webkit-transform 80s;
+    -webkit-transition: opacity 4s, -webkit-transform 80s;
+    transition: opacity 4s, -webkit-transform 80s;
+    -o-transition: transform 80s, opacity 4s;
+    transition: transform 80s, opacity 4s;
+    transition: transform 80s, opacity 4s, -webkit-transform 80s;
 }
 
 .objetivo {
@@ -278,8 +278,8 @@ li:hover {
 }
 
 .titulo-solucao {
-    width: 85%;
-    right: 15%;
+    width: 45%;
+    right: 55%;
     font-weight: bolder;
     color: #EE4266;
     padding: 0;
@@ -445,18 +445,28 @@ img#box-imagem {
     border-radius: 5px;
 }
 
+img#box-camisinha-imagem {
+    position: absolute;
+    width: 46%;
+    top: 25%;
+    border-radius: 500px; 
+}
+
+img#box-camisinha-imagem:hover {
+    transform: scale(2);
+}
+
 .texto-solucao {
     width: 39%;
     height: 75%;
     margin-top: -5%;
     margin-left: 5%;     
-    margin-right: 3%;
     border-radius: 6px;
     color: #DDDDDD;
 }
 
 .texto-solucao h1 {
-    font-size: 25pt;
+    font-size: 20pt;
     font-weight: bolder;
     text-align: center;
 }
@@ -472,7 +482,7 @@ img#box-imagem {
     padding: 1rem;
     font-size: 10pt;
     border: none;
-    letter-spacing: 1.9px;
+    letter-spacing: 1.6px;
     border-radius: 7px 0 0 7px;
     background-color: rgba(255,255,255,0.3);
 }
@@ -500,7 +510,7 @@ img#box-imagem {
 
 .se-inscreva {
     background-color: #EE4266;
-    padding: 0.98rem;
+    padding: 0.96rem;
     color: white;
     border-radius: 0 7px 7px 0;
     text-align: center;
@@ -510,7 +520,7 @@ img#box-imagem {
 
 .se-inscreva-solucao {
     background-color: #EE4266;
-    padding: 1rem;
+    padding: 0.96rem;
     color: white;
     border-radius: 0 7px 7px 0;
     text-align: center;
@@ -575,11 +585,10 @@ img#box-imagem {
     position: absolute;
     width: 96%;
     align-items: center;
-    bottom: 2%;
+    bottom: 4%;
 }
 
 .email-carousel h1 {
-    /* width: 100%; */
     text-align: center;
     font-size: 14pt;
     color: white;
@@ -608,6 +617,27 @@ img#box-imagem {
 }
 
 .send-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+}
+
+#box-solucao-email {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -753,7 +783,7 @@ h2#botao-curtida {
 }
 
 .texto-curtidas-participe {
-    width: 30%;
+    width: 37%;
     text-align: center;
     margin: 0;
     display: -webkit-box;
