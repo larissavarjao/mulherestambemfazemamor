@@ -70,27 +70,21 @@ function activeDepoimentoCarol(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(carol).fadeIn(4000);
-    }); 
+    carol.style.display = 'block';
 }
 
 function activeDepoimentoLari(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(lari).fadeIn(4000);
-    });
+    lari.style.display = 'block';
 }
 
 function activeDepoimentoClara(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(clara).fadeIn(4000);
-    });
+    clara.style.display = 'block';
 }
 
 function removeDepoimentoCarol(){
