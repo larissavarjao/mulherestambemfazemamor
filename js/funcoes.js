@@ -43,10 +43,13 @@ Array.prototype.forEach.call(close, function(item, index, array){
     })
 })
 
-Array.prototype.forEach.call(menuItems, function(item){
+Array.prototype.forEach.call(menuItems, function(item, index){
     item.addEventListener('click', function(){
         var target = item.classList[0];
+        console.log('Target: ', target);
         var to = document.querySelector(target).offsetTop;
+        console.log('To: ', to);
+        console.log('Scroll to: ', document.body, to, 500);
         return scrollTo(document.body, to, 500);
     }, false);
 });
@@ -54,7 +57,9 @@ Array.prototype.forEach.call(menuItems, function(item){
 function scrollTo(element, to, duration) {
     if (duration <= 0) return;
     var difference = to - element.scrollTop;
+    console.log('Difference: ', difference);
     var perTick = difference / duration * 10;
+    console.log('perTick: ', perTick);
 
     setTimeout(function() {
         element.scrollTop = element.scrollTop + perTick;
