@@ -1,6 +1,6 @@
 # Mulheres Também Fazem Amor
 
-Site desenvolvido como projeto para aprendizado de HTML, CSS e Javascript!
+Site desenvolvido para aprendizado de HTML, CSS e Javascript!
 
 Mulheres Também Fazem Amor é um movimento que promove ações de transformação da mentalidade , criando formas de promover a igualdade de gênero, a liberdade sexual e a proteção das mulheres.
 
@@ -10,6 +10,4 @@ Queremos sentir que as camisinhas também são feitas para nós! Queremos que o 
 
 Nossa idéia é vender um acessório que torne confortável carregar preservativos, o que chamamos da box do poder. Esse é basicamente um convite a cada pessoinha desse país a repensar o que estamos ensinamos para nossas garotas sobre sexo. É um forma de dizermos que está tudo bem se uma mulher transa.
 
-Projeto idealizado por Carolina Costa, com desenvolvimento do site realizado por Larissa Varjão com orientação de Clara Battesini.
-
-
+Projeto idealizado por <b>Carolina Costa</b>, com desenvolvimento do site realizado por <b>Larissa Varjão</b> com orientação de <b>Clara Battesini</b>.
