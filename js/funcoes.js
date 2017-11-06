@@ -46,10 +46,7 @@ Array.prototype.forEach.call(close, function(item, index, array){
 Array.prototype.forEach.call(menuItems, function(item){
     item.addEventListener('click', function(){
         var target = item.classList[0];
-        console.log(item.classList[0]);
         var to = document.querySelector(target).offsetTop;
-        console.log(to);
-        console.log(document.body, to, 500);
         return scrollTo(document.body, to, 500);
     }, false);
 });
