@@ -39,20 +39,16 @@ img#logo-temporaria {
 header nav {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            -webkit-justify-content: space-between;
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;  
     position: absolute; 
     z-index: 4;
@@ -67,20 +63,16 @@ nav {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     width: 35%;
     margin-right: 10px;
@@ -114,7 +106,6 @@ li:hover {
     height: 100vh;
     position: relative;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
 }
@@ -127,7 +118,6 @@ li:hover {
        object-fit: cover;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -166,21 +156,17 @@ li:hover {
 .objetivo {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     height: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center; 
 }
 
@@ -190,41 +176,33 @@ li:hover {
     font-size: 2rem;
     width: 92%;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
             -webkit-box-pack: start;
-            -webkit-justify-content: flex-start;
                 -ms-flex-pack: start;
                     justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
 .corpo-objetivo {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            -webkit-justify-content: flex-start;
             justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center; 
 }
 
@@ -232,20 +210,16 @@ li:hover {
     width: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;    
     -webkit-box-pack: start;    
         -ms-flex-pack: start;    
-            -webkit-justify-content: flex-start;    
             justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -260,20 +234,16 @@ li:hover {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            -webkit-justify-content: flex-start;
             justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -285,41 +255,33 @@ li:hover {
     padding: 0;
     font-size: 30pt;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;     
     -webkit-box-pack: end;     
-    -webkit-justify-content: flex-end;     
         -ms-flex-pack: end;     
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
 .box-solucao {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     border: none;
 }
@@ -327,20 +289,16 @@ li:hover {
 fieldset {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     border: none;
     margin: 0;
@@ -352,20 +310,16 @@ fieldset {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -376,20 +330,16 @@ fieldset {
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -397,20 +347,16 @@ fieldset {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     position: absolute;
     bottom: 2%;
@@ -419,20 +365,16 @@ fieldset {
 .email-solucao {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     position: relative;
     width: 30%;
@@ -453,7 +395,9 @@ img#box-camisinha-imagem {
 }
 
 img#box-camisinha-imagem:hover {
-    transform: scale(2);
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+            transform: scale(2);
 }
 
 .texto-solucao {
@@ -491,20 +435,16 @@ img#box-camisinha-imagem:hover {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -567,20 +507,16 @@ img#box-camisinha-imagem:hover {
     background-color: none;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
                 -ms-flex-direction: column;
-                    -webkit-flex-direction: column;
                     flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     position: absolute;
     width: 96%;
@@ -599,19 +535,15 @@ img#box-camisinha-imagem:hover {
 .espaco-email-topo {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
                 -ms-flex-direction: column;
-                    -webkit-flex-direction: column;
                     flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start;
 }
@@ -619,20 +551,16 @@ img#box-camisinha-imagem:hover {
 .send-email {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -640,40 +568,32 @@ img#box-camisinha-imagem:hover {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
 .curtidas {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     color: #dddddd;
     width: 100%;
@@ -684,20 +604,16 @@ img#box-camisinha-imagem:hover {
 .corpo-curtidas {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            -webkit-justify-content: flex-start;
             justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -714,21 +630,17 @@ img#box-camisinha-imagem:hover {
     font-size: 30pt;
     text-align: center;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;     
     -webkit-box-pack: start;     
-    -webkit-justify-content: flex-start;     
         -ms-flex-pack: start;     
             justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -765,20 +677,16 @@ h2#botao-curtida {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
@@ -788,40 +696,32 @@ h2#botao-curtida {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 
 .depoimentos {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
 }
 .item-depoimento {
@@ -831,20 +731,16 @@ h2#botao-curtida {
 .texto-depoimento {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;
     margin: 3%;
     width: 90%;
@@ -861,20 +757,16 @@ h2#botao-curtida {
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            -webkit-flex-direction: row;
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: end;
         -ms-flex-align: end;
-            -webkit-align-items: flex-end;
             align-items: flex-end;
     background-color: rgba(0,0,0,0.5);
 }
@@ -882,20 +774,16 @@ h2#botao-curtida {
 .corpo-depoimento {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: end;
         -ms-flex-align: end;
-            -webkit-align-items: flex-end;
             align-items: flex-end;
     height: 280px;
     position: relative;
@@ -951,20 +839,16 @@ h2#botao-curtida {
     margin-right: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            -webkit-justify-content: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            -webkit-align-items: center;
             align-items: center;    
 }
 
@@ -1113,20 +997,16 @@ img#dots {
     .depoimentos {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
         width: auto;
         height: auto;
@@ -1135,20 +1015,16 @@ img#dots {
     .corpo-objetivo {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
     
@@ -1157,20 +1033,16 @@ img#dots {
         height: auto;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                -webkit-flex-direction: row;
                 flex-direction: row;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1200,19 +1072,15 @@ img#dots {
     .corpo-curtidas {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -ms-flex-pack: distribute;
-            -webkit-justify-content: space-around;
                 justify-content: space-around;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1227,20 +1095,16 @@ img#dots {
     .box-solucao {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
         width: auto;
         height: auto;
@@ -1257,20 +1121,16 @@ img#dots {
         height: auto;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: end;
             -ms-flex-pack: end;
-                -webkit-justify-content: flex-end;
                 justify-content: flex-end;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1297,20 +1157,16 @@ img#dots {
     .sec-topo {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1379,23 +1235,18 @@ img#dots {
     .depoimentos {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                -webkit-flex-direction: row;
                 flex-direction: row;
         -ms-flex-wrap: wrap;
-            -webkit-flex-wrap: wrap;
                 flex-wrap: wrap;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1419,20 +1270,16 @@ img#dots {
     .box-solucao {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                -webkit-flex-direction: row;
                 flex-direction: row;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                -webkit-justify-content: center;
                 justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1447,20 +1294,16 @@ img#dots {
         height: 75%;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                -webkit-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: end;
             -ms-flex-pack: end;
-                -webkit-justify-content: flex-end;
                 justify-content: flex-end;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                -webkit-align-items: center;
                 align-items: center;
     }
 
@@ -1491,5 +1334,9 @@ img#dots {
 
     .send-email {
         margin: 0;
+    }
+
+    #box-solucao-email {
+        padding-left: 20%;
     }
 }

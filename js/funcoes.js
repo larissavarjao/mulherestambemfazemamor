@@ -43,39 +43,50 @@ Array.prototype.forEach.call(close, function(item, index, array){
     })
 })
 
-Array.prototype.forEach.call(menuItems, function(item){
+Array.prototype.forEach.call(menuItems, function(item, index){
     item.addEventListener('click', function(){
         var target = item.classList[0];
+        console.log('Target: ', target);
         var to = document.querySelector(target).offsetTop;
+        console.log('To: ', to);
+        console.log('Scroll to: ', document.body, to, 500);
         return scrollTo(document.body, to, 500);
-    });
+    }, false);
 });
+
+function scrollTo(element, to, duration) {
+    if (duration <= 0) return;
+    var difference = to - element.scrollTop;
+    console.log('Difference: ', difference);
+    var perTick = difference / duration * 10;
+    console.log('perTick: ', perTick);
+
+    setTimeout(function() {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop === to) return;
+        scrollTo(element, to, duration - 10);
+    }, 10);
+}
 
 function activeDepoimentoCarol(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(carol).fadeIn(4000);
-    }); 
+    carol.style.display = 'block';
 }
 
 function activeDepoimentoLari(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(lari).fadeIn(4000);
-    });
+    lari.style.display = 'block';
 }
 
 function activeDepoimentoClara(){
     boxcarol.style.display = 'none';
     boxlari.style.display = 'none';
     boxclara.style.display = 'none';
-    $(document).ready(function(){
-        $(clara).fadeIn(4000);
-    });
+    clara.style.display = 'block';
 }
 
 function removeDepoimentoCarol(){
@@ -99,18 +110,6 @@ function removeDepoimentoClara(){
     clara.style.display = 'none';
 }
 
-// SCROLL
-function scrollTo(element, to, duration) {
-    if (duration <= 0) return;
-    var difference = to - element.scrollTop;
-    var perTick = difference / duration * 10;
-
-    setTimeout(function() {
-        element.scrollTop = element.scrollTop + perTick;
-        if (element.scrollTop === to) return;
-        scrollTo(element, to, duration - 10);
-    }, 10);
-}
 
 function imagemaparecendo1(){
     imagem1.style.opacity = '1';
@@ -143,5 +142,5 @@ var imagemTransform = setInterval(function slide(){
             imagemaparecendo1(); 
         }
     }
-    console.log(counter++);
+    counter++;
 }, 1000);
