@@ -11,3 +11,5 @@ Queremos sentir que as camisinhas também são feitas para nós! Queremos que o 
 Nossa idéia é vender um acessório que torne confortável carregar preservativos, o que chamamos da box do poder. Esse é basicamente um convite a cada pessoinha desse país a repensar o que estamos ensinamos para nossas garotas sobre sexo. É um forma de dizermos que está tudo bem se uma mulher transa.
 
 Projeto idealizado por <b>Carolina Costa</b>, com desenvolvimento do site realizado por <b>Larissa Varjão</b> com orientação de <b>Clara Battesini</b>.
+
+Disponível em: https://larissavarjao.github.io/mtfa/
