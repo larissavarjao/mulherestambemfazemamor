@@ -15,6 +15,7 @@ var mtfa = document.querySelector('#carousel-1');
 var slide2 = document.querySelector('#carousel-2');
 var counter = 0;
 
+
 Array.prototype.forEach.call(leia, function(item, index, array){
     item.addEventListener('click', function(){
         if(index == 0){

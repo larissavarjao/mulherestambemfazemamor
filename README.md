@@ -12,4 +12,4 @@ Nossa idéia é vender um acessório que torne confortável carregar preservativ
 
 Projeto idealizado por <b>Carolina Costa</b>, com desenvolvimento do site realizado por <b>Larissa Varjão</b> com orientação de <b>Clara Battesini</b>.
 
-Disponível em: https://larissavarjao.github.io/mulherestambemfazemamor/
+Disponível em : https://larissavarjao.github.io/mulherestambemfazemamor/
